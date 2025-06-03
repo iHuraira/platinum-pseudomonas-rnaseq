@@ -1,0 +1,3 @@
+KeyError in file /data/rnaseq_pipe/Snakefile, line 1:
+'samples'
+  File "/data/rnaseq_pipe/Snakefile", line 1, in <module>

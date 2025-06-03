@@ -1,0 +1,8 @@
+samples: "data/sra_file.txt"
+
+genome_fasta: "resources/genome/genome.fa"
+genome_index: "resources/genome/STAR_index"
+adapters: "resources/adapters.fa"
+annotation_gtf: "resources/genome/annotation.gtf"
+
+threads: 8

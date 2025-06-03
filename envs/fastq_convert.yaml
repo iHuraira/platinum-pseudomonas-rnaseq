@@ -1,0 +1,6 @@
+name: fastq_convert
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - fasterq-dump

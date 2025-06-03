@@ -1,0 +1,4 @@
+TypeError in file /data/rnaseq_pipe/rules/fastq_convert.smk, line 7:
+bad operand type for unary -: 'str'
+  File "/data/rnaseq_pipe/Snakefile", line 8, in <module>
+  File "/data/rnaseq_pipe/rules/fastq_convert.smk", line 7, in <module>

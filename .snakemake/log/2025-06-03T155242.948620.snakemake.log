@@ -1,0 +1,3 @@
+KeyError in file /data/rnaseq_pipe/Snakefile, line 3:
+'genome_fasta'
+  File "/data/rnaseq_pipe/Snakefile", line 3, in <module>

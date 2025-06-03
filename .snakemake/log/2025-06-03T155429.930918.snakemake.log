@@ -1,0 +1,3 @@
+NameError in file /data/rnaseq_pipe/Snakefile, line 5:
+name 'sample_file' is not defined
+  File "/data/rnaseq_pipe/Snakefile", line 5, in <module>

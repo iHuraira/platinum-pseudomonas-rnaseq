@@ -1,0 +1,6 @@
+Building DAG of jobs...
+MissingInputException in rule all in file /data/rnaseq_pipe/Snakefile, line 8:
+Missing input files for rule all:
+    affected files:
+        results/GSM6744366.txt
+        results/GSM6744367.txt
