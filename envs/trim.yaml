@@ -1,7 +1,7 @@
-name: fastq_convert
+name: trim
 channels:
   - bioconda
   - conda-forge
   - defaults
 dependencies:
-  - sra-tools
+  - trimmomatic

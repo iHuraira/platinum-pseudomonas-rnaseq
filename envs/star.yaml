@@ -1,7 +1,6 @@
-name: fastq_convert
+name: star
 channels:
   - bioconda
   - conda-forge
-  - defaults
 dependencies:
-  - sra-tools
+  - star

@@ -1,7 +1,6 @@
-name: fastq_convert
+name: samtools
 channels:
   - bioconda
   - conda-forge
-  - defaults
 dependencies:
-  - sra-tools
+  - samtools

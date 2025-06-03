@@ -1,7 +1,6 @@
-name: fastq_convert
+name: subread
 channels:
   - bioconda
   - conda-forge
-  - defaults
 dependencies:
-  - sra-tools
+  - subread
