@@ -7,14 +7,13 @@ include: "rules/download.smk"
 include: "rules/fastq_convert.smk"
 include: "rules/qc.smk"
 include: "rules/trim.smk"
-include: "rules/star_index.smk"
-include: "rules/star_align.smk"
-include: "rules/sorted_bam.smk"
-include: "rules/read_counts.smk"
+include: "rules/salmon_quant.smk"
+include: "rules/deseq2.smk"
 
 rule all:
     input:
-        expand("results/aligned/{sample}.sorted.bam", sample=samples),
-        expand("results/aligned/{sample}.sorted.bam.bai", sample=samples),
-        expand("results/counts/{sample}.counts.txt", sample=samples)
+        expand("results/trim/{sample}/{sample}_1.fastq", sample=samples),
+        expand("results/trim/{sample}/{sample}_2.fastq", sample=samples),
+        expand("results/salmon/{sample}", sample=samples),
+        "results/dge_complete.flag"
 

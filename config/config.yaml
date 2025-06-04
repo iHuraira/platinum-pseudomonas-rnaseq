@@ -1,8 +1,8 @@
 samples: "data/sra_file.txt"
 
-genome_fasta: "resources/genome/genome.fna"
-genome_index: "resources/genome/STAR_index"
 adapters: "resources/adapters/Tru-Seq3-PE.fa"
-annotation_gtf: "resources/genome/annotation.gtf"
-
+salmon_index: "resources/genome/salmon_index"
 threads: 8
+
+# Keep this if you plan to use tximport
+annotation_gtf: "resources/genome/annotation.gtf"
