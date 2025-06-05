@@ -1,5 +1,3 @@
-### 📄 README.md Draft for Your Snakemake RNA-seq Pipeline
-
 # 🧬 RNA-Seq Pipeline: Gene Expression Profiling of *Pseudomonas aeruginosa* Under Platinum Nanoparticle Exposure
 
 This repository contains a Snakemake-based pipeline for analyzing RNA-seq data related to the effect of long-term exposure to platinum nanoparticles (PtNPs) on the gene expression of *Pseudomonas aeruginosa* PAO1.
