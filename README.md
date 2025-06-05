@@ -96,10 +96,6 @@ This study includes **9 RNA-seq samples** across three experimental conditions:
 
 ---
 
-Thanks! Based on the DESeq2 output from your R script, here is a clear and concise **Results** section for your `README.md`, summarizing findings from the three comparisons:
-
----
-
 ## 📈 Results
 
 Differential gene expression analysis was performed using **DESeq2** in R, comparing transcript abundance across three experimental conditions:
@@ -148,10 +144,6 @@ Significance thresholds used:
   * `ENSB:6OwFdjo0uF3Ve-6` — ↓ 6.56-fold
   * `ENSB:IrezBepOLJ6WH_o` — ↑ 5.66-fold
 * Overall, this comparison exhibited the **largest fold changes**, reinforcing the transcriptomic impact of platinum nanoparticle exposure.
-
----
-
-These results provide clear evidence that **PtNP exposure alters gene expression substantially**, particularly in evolved *P. aeruginosa* strains, with potential implications for antibiotic sensitivity and stress responses.
 
 ---
 
