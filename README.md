@@ -144,6 +144,46 @@ These plots visualize the distribution of gene significance (−log10 adjusted p
 
 ---
 
+
+## 🧪 Visualizations
+
+### 📉 MA Plots
+
+MA (Mean-Average) plots display the relationship between the **mean expression** and the **log2 fold change** of genes in each comparison. Genes that are significantly differentially expressed (`padj < 0.05`) are shown in red.
+
+#### CK vs WT
+
+![MA Plot CK vs WT](./results/MA_CK_vs_WT.png)
+
+#### ES vs CK
+
+![MA Plot ES vs CK](./results/MA_ES_vs_CK.png)
+
+#### ES vs WT
+
+![MA Plot ES vs WT](./results/MA_ES_vs_WT.png)
+
+These plots reveal global shifts in gene expression:
+
+* **CK vs WT**: Expression differences due to long-term evolution without nanoparticle exposure.
+* **ES vs CK**: Distinct changes attributed to nanoparticle stress.
+* **ES vs WT**: Combined effect of evolution and PtNP exposure.
+
+---
+
+### 🔥 Heatmap of Top 20 Differentially Expressed Genes
+
+This heatmap visualizes the expression of the **top 20 genes (by adjusted p-value)** between PtNP-exposed (ES) and wild-type (WT) samples. Expression values are **z-score normalized** across genes.
+
+![Heatmap of Top 20 DE Genes](./results/heatmap_top_20_genes.png)
+
+* **Red** indicates higher-than-average expression
+* **Blue** indicates lower-than-average expression
+
+This plot highlights **clear transcriptional signatures** that distinguish nanoparticle-exposed samples from unexposed ones.
+
+---
+
 ### 📄 Citation
 
 **Original Study**:
