@@ -2,7 +2,7 @@ rule salmon_quant:
     input:
         r1 = "results/trim/{sample}/{sample}_1.fastq",
         r2 = "results/trim/{sample}/{sample}_2.fastq",
-        index = "resources/salmon_index"
+        index = "resources/genome/salmon_index"
     output:
         "results/salmon/{sample}/quant.sf"
     conda:

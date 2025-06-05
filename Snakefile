@@ -8,6 +8,7 @@ include: "rules/fastq_convert.smk"
 include: "rules/qc.smk"
 include: "rules/multi_qc.smk"
 include: "rules/trim.smk"
+include: "rules/salmon_index.smk"
 include: "rules/salmon_quant.smk"
 include: "rules/deseq2.smk"
 
@@ -19,6 +20,7 @@ rule all:
         expand("results/qc/{sample}/{sample}_1_fastqc.zip", sample=samples),
         expand("results/qc/{sample}/{sample}_2_fastqc.html", sample=samples),
         expand("results/qc/{sample}/{sample}_2_fastqc.zip", sample=samples),
+        "resources/genome/salmon_index",
         expand("results/salmon/{sample}", sample=samples),
         "results/dge_complete.flag",
         "results/qc/multiqc_report.html"
