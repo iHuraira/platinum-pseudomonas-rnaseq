@@ -72,6 +72,34 @@ This workflow is implemented using **Snakemake** and organized into modular rule
 
 ---
 
+Here is the combined and cleaned-up section that includes both the **Sample Design** and **Sample-to-Run Mapping**, formatted for clarity in your `README.md`:
+
+---
+
+### 🧬 Sample Overview
+
+This study includes **9 RNA-seq samples** across three experimental conditions:
+
+| Sample Accession | Sample Name | Experimental Condition                       | SRA Run     |
+| ---------------- | ----------- | -------------------------------------------- | ----------- |
+| GSM6744366       | WT-1        | Wild-type *P. aeruginosa* (WT)               | SRR22355218 |
+| GSM6744367       | WT-2        | Wild-type *P. aeruginosa* (WT)               | SRR22355219 |
+| GSM6744368       | WT-3        | Wild-type *P. aeruginosa* (WT)               | SRR22355220 |
+| GSM6744369       | CK-1        | Evolved without PtNPs exposure (Control, CK) | SRR22355221 |
+| GSM6744370       | CK-2        | Evolved without PtNPs exposure (Control, CK) | SRR22355222 |
+| GSM6744371       | CK-3        | Evolved without PtNPs exposure (Control, CK) | SRR22355223 |
+| GSM6744372       | ES-1        | Evolved after 60-day PtNPs exposure (ES)     | SRR22355224 |
+| GSM6744373       | ES-2        | Evolved after 60-day PtNPs exposure (ES)     | SRR22355225 |
+| GSM6744374       | ES-3        | Evolved after 60-day PtNPs exposure (ES)     | SRR22355226 |
+
+**Condition groups:**
+
+* **WT**: Wild-type strains
+* **CK**: Non-exposed but evolved PAO1 (Control)
+* **ES**: PtNP-exposed and evolved PAO1
+
+---
+
 ### 📄 Citation
 
 **Original Study**:
