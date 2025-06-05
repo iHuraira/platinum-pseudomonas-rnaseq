@@ -72,10 +72,6 @@ This workflow is implemented using **Snakemake** and organized into modular rule
 
 ---
 
-Here is the combined and cleaned-up section that includes both the **Sample Design** and **Sample-to-Run Mapping**, formatted for clarity in your `README.md`:
-
----
-
 ### 🧬 Sample Overview
 
 This study includes **9 RNA-seq samples** across three experimental conditions:
