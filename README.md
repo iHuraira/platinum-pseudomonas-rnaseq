@@ -145,6 +145,60 @@ Significance thresholds used:
   * `ENSB:IrezBepOLJ6WH_o` — ↑ 5.66-fold
 * Overall, this comparison exhibited the **largest fold changes**, reinforcing the transcriptomic impact of platinum nanoparticle exposure.
 
+  Great — with the volcano plots now available for all three comparisons, here's an enhanced **Results** section for your `README.md`, including visual summaries and interpretation:
+
+---
+
+## 📈 Results
+
+Differential expression analysis was conducted using **DESeq2** for the following pairwise comparisons:
+
+* **CK vs WT**: Evolved (no PtNP) vs Wild-type
+* **ES vs CK**: PtNP-exposed vs Evolved (control)
+* **ES vs WT**: PtNP-exposed vs Wild-type
+
+Significance criteria:
+
+* Adjusted p-value (`padj`) < 0.05
+* |log2FoldChange| > 1
+
+### 🔬 Summary of Findings
+
+| Comparison   | Notable Changes                     | Interpretation                                                            |
+| ------------ | ----------------------------------- | ------------------------------------------------------------------------- |
+| **CK vs WT** | Major transcriptional shifts        | Evolution alone (without PtNPs) alters gene expression                    |
+| **ES vs CK** | Substantial differential expression | PtNP exposure causes distinct stress-response or adaptation gene profiles |
+| **ES vs WT** | Strongest expression divergence     | Combined effects of evolution + PtNP exposure on global gene regulation   |
+
+---
+
+### 🧬 Top Differentially Expressed Genes
+
+**CK vs WT**
+
+* Downregulated: `ENSB:jQ5z2HNgTqzPy_A` (log2FC: –6.88)
+* Upregulated: `ENSB:9IK76psBkL_GHhq` (log2FC: +7.99)
+
+**ES vs CK**
+
+* Downregulated: `ENSB:6OwFdjo0uF3Ve-6` (log2FC: –6.49)
+* Upregulated: `ENSB:VUxK96zPgBtdmN_` (log2FC: +3.98)
+
+**ES vs WT**
+
+* Downregulated: `ENSB:6OwFdjo0uF3Ve-6` (log2FC: –6.56)
+* Upregulated: `ENSB:9IK76psBkL_GHhq` (log2FC: +8.84)
+
+---
+
+### 🌋 Volcano Plot Snapshots
+
+These plots visualize the distribution of gene significance (−log10 adjusted p-value) versus effect size (log2 fold change):
+
+* **[Volcano: CK vs WT](./results/volcano_CK_vs_WT.pdf)**
+* **[Volcano: ES vs CK](./results/volcano_ES_vs_CK.pdf)**
+* **[Volcano: ES vs WT](./results/volcano_ES_vs_WT.pdf)**
+
 ---
 
 ### 📄 Citation
