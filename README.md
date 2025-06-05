@@ -109,48 +109,6 @@ Significance thresholds used:
 * Adjusted p-value (`padj`) < **0.05**
 * Absolute log2 fold change > **1** (implied from strong signal)
 
----
-
-### 🔹 CK vs WT
-
-* Large shifts in gene expression observed even without PtNP exposure, likely due to evolutionary drift.
-* **Top differentially expressed genes**:
-
-  * `ENSB:jQ5z2HNgTqzPy_A` — ↓ 6.88-fold
-  * `ENSB:9IK76psBkL_GHhq` — ↑ 7.99-fold
-  * `ENSB:Un7QtFJ2kHpSvL5` — ↑ 5.70-fold
-* All top genes had **padj = 0**, indicating strong significance.
-
----
-
-### 🔹 ES vs CK
-
-* PtNP exposure produced significant transcriptomic shifts relative to the evolved (unexposed) control.
-* **Top DE genes**:
-
-  * `ENSB:6OwFdjo0uF3Ve-6` — ↓ 6.49-fold
-  * `ENSB:VUxK96zPgBtdmN_` — ↑ 3.98-fold
-  * `ENSB:UdrS1CgM0qLAhzU` — ↓ 5.07-fold
-* Adjusted p-values ranged from **0 to \~10⁻²⁷³**, indicating extremely confident differential expression.
-
----
-
-### 🔹 ES vs WT
-
-* Reflects cumulative effects of both long-term evolution and PtNP exposure.
-* **Notable genes**:
-
-  * `ENSB:9IK76psBkL_GHhq` — ↑ 8.84-fold
-  * `ENSB:6OwFdjo0uF3Ve-6` — ↓ 6.56-fold
-  * `ENSB:IrezBepOLJ6WH_o` — ↑ 5.66-fold
-* Overall, this comparison exhibited the **largest fold changes**, reinforcing the transcriptomic impact of platinum nanoparticle exposure.
-
-  Great — with the volcano plots now available for all three comparisons, here's an enhanced **Results** section for your `README.md`, including visual summaries and interpretation:
-
----
-
-## 📈 Results
-
 | Comparison   | Notable Changes                     | Interpretation                                                            |
 | ------------ | ----------------------------------- | ------------------------------------------------------------------------- |
 | **CK vs WT** | Major transcriptional shifts        | Evolution alone (without PtNPs) alters gene expression                    |
