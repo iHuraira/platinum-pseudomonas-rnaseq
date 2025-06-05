@@ -175,7 +175,7 @@ These plots reveal global shifts in gene expression:
 
 This heatmap visualizes the expression of the **top 20 genes (by adjusted p-value)** between PtNP-exposed (ES) and wild-type (WT) samples. Expression values are **z-score normalized** across genes.
 
-![Heatmap of Top 20 DE Genes](./results/heatmap_top_20_genes.png)
+![Heatmap of Top 20 DE Genes](./results/heatmap_top_20_genes_with_group_labels.png)
 
 * **Red** indicates higher-than-average expression
 * **Blue** indicates lower-than-average expression
