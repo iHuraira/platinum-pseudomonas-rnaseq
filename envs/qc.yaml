@@ -1,7 +1,9 @@
-name: quality_control
+name: qc
 channels:
-  - bioconda
   - conda-forge
+  - bioconda
+  - defaults
 dependencies:
+  - python=3.9
   - fastqc
   - multiqc

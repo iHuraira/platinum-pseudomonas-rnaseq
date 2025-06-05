@@ -4,3 +4,5 @@ results/salmon
 results/trim
 .snakemake/
 resources/genome
+results/qc/*
+!results/qc/multiqc_report.html
