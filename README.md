@@ -151,26 +151,11 @@ Significance thresholds used:
 
 ## 📈 Results
 
-Differential expression analysis was conducted using **DESeq2** for the following pairwise comparisons:
-
-* **CK vs WT**: Evolved (no PtNP) vs Wild-type
-* **ES vs CK**: PtNP-exposed vs Evolved (control)
-* **ES vs WT**: PtNP-exposed vs Wild-type
-
-Significance criteria:
-
-* Adjusted p-value (`padj`) < 0.05
-* |log2FoldChange| > 1
-
-### 🔬 Summary of Findings
-
 | Comparison   | Notable Changes                     | Interpretation                                                            |
 | ------------ | ----------------------------------- | ------------------------------------------------------------------------- |
 | **CK vs WT** | Major transcriptional shifts        | Evolution alone (without PtNPs) alters gene expression                    |
 | **ES vs CK** | Substantial differential expression | PtNP exposure causes distinct stress-response or adaptation gene profiles |
 | **ES vs WT** | Strongest expression divergence     | Combined effects of evolution + PtNP exposure on global gene regulation   |
-
----
 
 ### 🧬 Top Differentially Expressed Genes
 
